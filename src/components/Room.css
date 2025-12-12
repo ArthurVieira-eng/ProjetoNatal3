@@ -1,0 +1,9 @@
+.room {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: flex-start; /* mantém o painel no topo */
+  padding: 50px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #87cefa, #f0f8ff); /* céu azul claro */
+  gap: 50px; /* espaço entre árvore e painel */
+}

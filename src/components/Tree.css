@@ -1,0 +1,21 @@
+.tree {
+  position: relative;
+  width: 300px;   /* largura da árvore */
+  height: 400px;  /* altura total da div */
+}
+
+.tree-image {
+  width: 100%;
+  height: auto;  /* mantém proporção */
+  display: block;
+}
+
+.tree-trunk {
+  width: 60px;
+  height: 90px;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

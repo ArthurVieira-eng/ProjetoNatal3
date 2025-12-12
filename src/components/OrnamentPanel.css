@@ -1,0 +1,28 @@
+.ornament-panel {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffe4e1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.ornament {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ornament.red {
+  background-color: red;
+}
+
+.ornament.yellow {
+  background-color: yellow;
+}
+
+.ornament.blue {
+  background-color: blue;
+}
